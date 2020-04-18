@@ -217,10 +217,19 @@ footer nav a {
 }
 
 
-/*@media (max-width: 800px) {
+@media (max-width: 800px) {
 
+    header {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin-top: 2.7%;
+        margin-bottom: 4%;
+    /*    padding-left: 10%;
+        padding-right: 10%; 
+        border: solid red; */
+    }
 }
-*/
 
 @media (max-width: 500px) {
 
@@ -278,10 +287,9 @@ footer nav a {
     }
 
     .img2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
+        width: 400px;
+        height: 200px;
+        object-fit: cover;
     }
 
     .top-content {
